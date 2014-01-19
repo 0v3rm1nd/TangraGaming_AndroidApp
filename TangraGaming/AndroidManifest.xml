@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tangragaming"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/joysticicon72x72"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.tangragaming.WelcomeActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar" >
+
+            <!-- Temporary disable main activity for testing debugging purposes -->
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- Entry for LoginActivity -->
+        <activity
+            android:name="com.tangragaming.LoginActivity"
+            android:label="Sign In"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <!-- Entry for RegisterActivity -->
+        <activity
+            android:name="com.tangragaming.RegisterActivity"
+            android:label="Sign Up"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <!-- Entry for ReaderActivity -->
+        <activity
+            android:name="com.tangragaming.ReaderActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="Main RSS Reader"
+            android:theme="@android:style/Theme.NoTitleBar" >
+
+            <!-- Reader Activity is Temporary main activity -->
+<!--             <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter> -->
+        </activity>
+        <!-- Entry for RssListActivity -->
+        <activity
+            android:name="com.tangragaming.RssListActivity"
+            android:label="RSS List Activity"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+
+        <!-- Entry for RssDetailActivity -->
+
+        <activity
+            android:name="com.tangragaming.RssDetailActivity"
+            android:label="RSS Item Detail Activity"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+    </application>
+
+</manifest>

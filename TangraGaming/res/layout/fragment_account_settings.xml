@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:fillViewport="true" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#757272"
+        android:orientation="vertical"
+        android:padding="10dip" >
+
+        <View
+            android:id="@+id/line5"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="6dp"
+            android:background="#ffffff" />
+
+        <TextView
+            android:id="@+id/account_settings_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/line5"
+            android:layout_marginBottom="6dp"
+            android:gravity="center"
+            android:text="@string/titleAccSet"
+            android:textColor="#fff"
+            android:textSize="23sp" />
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/account_settings_title"
+            android:layout_marginBottom="10dp"
+            android:background="#ffffff" />
+
+        <TextView
+            android:id="@+id/account_settings_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/line"
+            android:layout_marginBottom="8dp"
+            android:text="@string/emailAccSet"
+            android:textColor="#dfdbdb"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/account_settings_nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/account_settings_email"
+            android:layout_marginBottom="8dp"
+            android:text="@string/nicknameAccSet"
+            android:textColor="#dfdbdb"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/account_settings_totalposts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/account_settings_nickname"
+            android:layout_marginBottom="8dp"
+            android:text="@string/totalpostsAccSet"
+            android:textColor="#dfdbdb"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/account_settings_roomjoined"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/account_settings_totalposts"
+            android:layout_marginBottom="13dp"
+            android:text="@string/roomsjoinedAccSet"
+            android:textColor="#dfdbdb"
+            android:textSize="22sp" />
+
+        <View
+            android:id="@+id/line1"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/account_settings_roomjoined"
+            android:layout_marginBottom="6dp"
+            android:background="#ffffff" />
+
+        <TextView
+            android:id="@+id/account_settings_personaldata"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/line1"
+            android:layout_marginBottom="6dp"
+            android:gravity="center"
+            android:text="@string/personaldataAccSet"
+            android:textColor="#fff"
+            android:textSize="23sp" />
+
+        <View
+            android:id="@+id/line3"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/account_settings_personaldata"
+            android:layout_marginBottom="10dp"
+            android:background="#ffffff" />
+
+        <TextView
+            android:id="@+id/account_settings_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/line3"
+            android:layout_marginBottom="4dp"
+            android:text="@string/nameAccSet"
+            android:textColor="#dfdbdb"
+            android:textSize="22sp" />
+
+        <EditText
+            android:id="@+id/account_settings_nameEdit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/account_settings_name"
+            android:inputType="text"
+            android:hint="@string/hintNameAccSet"
+            android:textColor="#606060"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/account_settings_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/account_settings_nameEdit"
+            android:layout_marginBottom="4dp"
+            android:text="@string/locationAccSet"
+            android:textColor="#dfdbdb"
+            android:textSize="22sp" />
+
+        <EditText
+            android:id="@+id/account_settings_locationEdit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/account_settings_location"
+            android:inputType="text"
+            android:hint="@string/hintLocationAccSet"
+            android:textColor="#606060"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/account_settings_gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/account_settings_locationEdit"
+            android:layout_marginBottom="4dp"
+            android:text="@string/genderAccSet"
+            android:textColor="#dfdbdb"
+            android:textSize="22sp" />
+
+        <EditText
+            android:id="@+id/account_settings_genderEdit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/account_settings_gender"
+            android:inputType="text"
+            android:hint="@string/hintGenderAccSet"
+            android:textColor="#606060"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/account_settings_birthday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/account_settings_genderEdit"
+            android:layout_marginBottom="4dp"
+            android:text="@string/birthdayAccSet"
+            android:textColor="#dfdbdb"
+            android:textSize="22sp" />
+
+        <EditText
+            android:id="@+id/account_settings_birthdayEdit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/account_settings_birthday"
+            android:inputType="text"
+            android:hint="@string/hintBirthdayAccSet"
+            android:textColor="#606060"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/account_settings_hobby"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/account_settings_birthdayEdit"
+            android:layout_marginBottom="4dp"
+            android:text="@string/hobbyAccSet"
+            android:textColor="#dfdbdb"
+            android:textSize="22sp" />
+
+        <EditText
+            android:id="@+id/account_settings_hobbyEdit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/account_settings_hobby"
+            android:layout_marginBottom="13dp"
+            android:inputType="text"
+            android:hint="@string/hintHobbyAccSet"
+            android:textColor="#606060"
+            android:textSize="22sp" />
+
+        <View
+            android:id="@+id/line4"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/account_settings_hobbyEdit"
+            android:layout_marginBottom="6dp"
+            android:background="#ffffff" />
+
+        <TextView
+            android:id="@+id/account_settings_actions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/line4"
+            android:layout_marginBottom="6dp"
+            android:gravity="center"
+            android:text="@string/actionsAccSet"
+            android:textColor="#fff"
+            android:textSize="23sp" />
+
+        <View
+            android:id="@+id/line2"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/account_settings_actions"
+            android:layout_marginBottom="10dp"
+            android:background="#ffffff" />
+
+        <Button
+            android:id="@+id/account_settings_updateinfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/line2"
+            android:layout_marginBottom="8dp"
+            android:background="@layout/account_settings_button"
+            android:gravity="center"
+            android:text="@string/updatedataAccSet"
+            android:textColor="#dfdbdb"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/account_settings_resetpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/account_settings_updateinfo"
+            android:layout_marginBottom="8dp"
+            android:background="@layout/account_settings_button"
+            android:gravity="center"
+            android:text="@string/resetpassAccSet"
+            android:textColor="#dfdbdb"
+            android:textSize="22sp" />
+    </RelativeLayout>
+
+</ScrollView>

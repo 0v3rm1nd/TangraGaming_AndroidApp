@@ -1,0 +1,70 @@
+<com.tangragaming.layout.MainLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- This holds the menu -->
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/activity_main_menu_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#535252"
+            android:cacheColorHint="#00000000" >
+        </ListView>
+    </LinearLayout>
+
+    <!-- This holds the content -->
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <!-- This acts as the Actionbar -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#cac6c6"
+            android:orientation="horizontal" >
+
+            <!-- Get the action bar on button click -->
+
+            <Button
+                android:id="@+id/activity_main_content_button_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/joysticicon72x72"
+                android:onClick="toggleMenu" />
+
+            <!-- Display the title of the selected fragment -->
+
+            <TextView
+                android:id="@+id/activity_main_content_title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/newsfeed"
+                android:textColor="#606060"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <!-- This is where the fragment will show up -->
+
+        <FrameLayout
+            android:id="@+id/activity_main_content_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </FrameLayout>
+    </LinearLayout>
+
+</com.tangragaming.layout.MainLayout>

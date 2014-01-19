@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This holds the content -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <!-- This acts as the Actionbar -->
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#7e7d7d"
+            android:orientation="horizontal" >
+
+            <!-- Get the action bar on button click -->
+
+            <Button
+                android:id="@+id/pc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="@layout/rss_news_button"
+                android:text="@string/pc"
+                android:textColor="#eaeaea"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/ps3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="@layout/rss_news_button"
+                android:text="@string/ps3"
+                android:textColor="#eaeaea"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/xbox360"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="@layout/rss_news_button"
+                android:text="@string/xbox360"
+                android:textColor="#eaeaea"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/ps4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="@layout/rss_news_button"
+                android:text="@string/ps4"
+                android:textColor="#eaeaea"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/psp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="@layout/rss_news_button"
+                android:text="@string/psp"
+                android:textColor="#eaeaea"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/nintendo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="@layout/rss_news_button"
+                android:text="@string/nintendo"
+                android:textColor="#eaeaea"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/wii"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="@layout/rss_news_button"
+                android:text="@string/nintendowii"
+                android:textColor="#eaeaea"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/ps2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="@layout/rss_news_button"
+                android:text="@string/ps2"
+                android:textColor="#eaeaea"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/welcomemessagerss"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        android:layout_marginTop="100dip"
+        android:gravity="center"
+        android:text="@string/welcomemessagereader"
+        android:textColor="#dddddd"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

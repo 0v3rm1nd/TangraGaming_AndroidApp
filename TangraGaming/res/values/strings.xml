@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TangraGaming</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Welcome Activity -->
+    <string name="welcomemessage">Welcome to the most advanced Game Info Sharing system - TangraGaming</string>
+    <string name="logreg">SignUp/Register</string>
+    <string name="rss">No thanks!</string>
+
+    <!-- Login Activity -->
+    <string name="signin">Sign In</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="linkregister">New to TangraGaming? Register here!</string>
+    <string name="backWelcome">Back to Welcome Screen</string>
+
+    <!-- Register Activity -->
+    <string name="signup">Sign Up</string>
+    <string name="nickname">Nickname</string>
+    <string name="register">Register</string>
+    <string name="linklogin">Already a member? Login here!</string>
+
+    <!-- Reader Activity  NOT Used mai -->
+    <string name="welcomemessagereader">Welcome to the RSS Reader functionality of  TangraGaming! Pick a platform from the list above to read the latest RSS news</string>
+    <string name="sidemenu">Edit Acc</string>
+
+    <!-- Sidebar navigation -->
+    <string name="accset">Account Settings</string>
+    <string name="findfr">Find Friends</string>
+    <string name="forum">Forum</string>
+    <string name="frman">Friend Manager</string>
+    <string name="newsfeed">News Reader</string>
+    <string name="roominv">Room Invites</string>
+    <string name="roomman">Room Manager</string>
+
+    <!-- News Feed Fragment -->
+
+
+    <!-- Navigation -->
+    <string name="pc">PC</string>
+    <string name="ps2">PS2</string>
+    <string name="ps3">PS3</string>
+    <string name="ps4">PS4</string>
+    <string name="psp">PSP</string>
+    <string name="xbox360">Xbox360</string>
+    <string name="nintendo">Nintendo</string>
+    <string name="nintendowii">Wii</string>
+
+    <!-- RSS feed spash fragment  + RssListActivity + RssDetailActivity -->
+    <string name="loading">Loading please wait&#8230;</string>
+    <string name="title">Title goes here!</string>
+    <string name="date">Date goes here!</string>
+    <string name="desc">Description goes here!</string>
+    <string name="linkLabel">Link to web: </string>
+    <string name="linkText">Link goes here!</string>
+    <string name="toRssMain">News Reader</string>
+    <string name="toForum">Go to Forum</string>
+    <string name="linkToFeed">Full Feed</string>
+
+    <!-- Account Settings fragment -->
+    <string name="titleAccSet">Nickname</string>
+    <string name="personaldataAccSet">Personal Data</string>
+    <string name="actionsAccSet">Actions</string>
+    <string name="nicknameAccSet">Nickname:</string>
+    <string name="emailAccSet">E-mail:</string>
+    <string name="resetpassAccSet">Reset Password</string>
+    <string name="updatedataAccSet">Update Info</string>
+    <string name="totalpostsAccSet">Total Posts:</string>
+    <string name="roomsjoinedAccSet">Rooms Joined:</string>
+    <string name="signatureAccSet">Signature:</string>
+    <string name="hobbyAccSet">Hobby:</string>
+    <string name="birthdayAccSet">Birthday:</string>
+    <string name="nameAccSet">Name:</string>
+    <string name="lastloginAccSet">Last Login:</string>
+    <string name="genderAccSet">Gender:</string>
+    <string name="locationAccSet">Location:</string>
+    <string name="hintNameAccSet">Fill in your name</string>
+    <string name="hintLocationAccSet">Fill in your location</string>
+    <string name="hintGenderAccSet">Fill in your gender</string>
+    <string name="hintBirthdayAccSet">Fill in your birthday date</string>
+    <string name="hintHobbyAccSet">Fill in your hobby</string>
+
+    <!-- Reset Password fragment -->
+    <string name="titleResetPass">Reset Password</string>
+    <string name="messageResetPass">Please fill in the below information to reset your password!</string>
+    <string name="oldResetPass">Old Password:</string>
+    <string name="newResetPass">New Password:</string>
+    <string name="repeatResetPass">Repeat New Password:</string>
+
+    <!-- Forum fragment -->
+    <string name="joinedRoomsForum">Joined Rooms</string>
+    <string name="createRoomForum">Create Room</string>
+    <string name="searchRoomsForum">Search Room</string>
+
+    <!-- Create Room fragment -->
+    <string name="titleCreateRoom">Create Room</string>
+    <string name="messageCreateRoom">Please fill in the below information to create a new room!</string>
+    <string name="nameCreateRoom">Room Name:</string>
+    <string name="mainroomCreateRoom">MainRoom:</string>
+
+    <!-- Context Menu RoomList -->
+    <string name="dialogtitle">Choose an option</string>
+    <string name="join">Join</string>
+    <string name="leave">Leave</string>
+    <string name="back">Back</string>
+
+    <!-- Room List fragment -->
+    <string name="findroom">Find Room</string>
+    <string name="searchroomhint">Fill in room name</string>
+    <string name="searchroom">Search</string>
+
+    <!-- Find Friends fragment -->
+    <string name="findfriend">Find Friends</string>
+    <string name="searchfriendshint">Fill in user nickname</string>
+    <string name="searchfriend">Search</string>
+
+    <!-- Context Menu Invite -->
+    <string name="dialoginvitetitle">Choose an option</string>
+    <string name="invite">Invite</string>
+    <string name="backinvite">Back</string>
+
+    <!-- Friend Manager fragment -->
+    <string name="listfriends">Friend List</string>
+    <string name="friends">Friends</string>
+    <string name="frreq">Friend Requests</string>
+    <string name="frreqstatus">Request Status</string>
+
+    <!-- Context Menu Friends -->
+    <string name="dialogfriendstitle">Choose an option</string>
+    <string name="defriend">Defriend</string>
+    <string name="backfriends">Back</string>
+
+    <!-- Friend Request fragment -->
+    <string name="listrequests">Friend Requests</string>
+
+    <!-- Context Menu Friend Requests -->
+    <string name="dialogfriendreqtitle">Choose an option</string>
+    <string name="accept">Accept</string>
+    <string name="decline">Decline</string>
+
+    <!-- Friend Request Status fragment -->
+    <string name="listrequeststatus">Your Friend Requests</string>
+    <string name="friendreqstatus">status</string>
+
+    <!-- Room Forum Fragment -->
+    <string name="createpost">Make a post</string>
+    <string name="roomforumtitile">Room Name</string>
+
+    <!-- MakePost Fragment -->
+    <string name="makeaposttitle">Submit Post</string>
+    <string name="makeapost">Post</string>
+    <string name="posthint">Please enter your post here!</string>
+
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="menu_items">
+        <item>Account Settings</item>
+        <item>News Reader</item>
+        <item>Forum</item>
+        <item>Room Invites</item>
+        <item>Room Manager</item>
+        <item>Find Friends</item>
+        <item>Friend Manager</item>
+    </string-array>
+
+</resources>

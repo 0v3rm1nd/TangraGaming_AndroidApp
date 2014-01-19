@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:fillViewport="true" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#757272"
+        android:orientation="vertical"
+        android:padding="10dip" >
+
+        <View
+            android:id="@+id/line5"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="10dp"
+            android:background="#ffffff" />
+
+        <TextView
+            android:id="@+id/create_room_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/line5"
+            android:layout_marginBottom="6dp"
+            android:gravity="center"
+            android:text="@string/titleCreateRoom"
+            android:textColor="#fff"
+            android:textSize="23sp" />
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/create_room_title"
+            android:layout_marginBottom="10dp"
+            android:background="#ffffff" />
+
+        <TextView
+            android:id="@+id/create_room_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/line"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:text="@string/messageCreateRoom"
+            android:textColor="#dfdbdb"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/create_room_error"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/create_room_message"
+            android:padding="10dip"
+            android:textColor="#e30000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/room_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/create_room_error"
+            android:layout_marginBottom="4dp"
+            android:text="@string/nameCreateRoom"
+            android:textColor="#dfdbdb"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/room_nameEdit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/room_name"
+            android:inputType="text"
+            android:textColor="#606060"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/main_room_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/room_nameEdit"
+            android:layout_marginBottom="4dp"
+            android:text="@string/mainroomCreateRoom"
+            android:textColor="#dfdbdb"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/main_room_nameSpinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/main_room_name"
+            android:layout_marginBottom="10dp"
+            android:inputType="text"
+            android:textColor="#606060"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/create_room_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/main_room_nameSpinner"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:text="@string/titleCreateRoom"
+            android:textColor="#606060"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+</ScrollView>

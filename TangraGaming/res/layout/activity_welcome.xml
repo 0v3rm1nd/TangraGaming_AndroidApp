@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background" >
+
+        <!-- Welcome Form -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="260dp"
+            android:background="@drawable/transperant"
+            android:orientation="vertical"
+            android:padding="10dip" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/welcomemessage"
+                android:textColor="#a9a8a8"
+                android:textSize="25sp" />
+            <!-- Link to Login/Registration Activity -->
+
+            <Button
+                android:id="@+id/btnLogReg"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dip"
+                android:background="@layout/button"
+                android:text="@string/logreg" />
+            <!-- Link to RSS Activity -->
+
+            <Button
+                android:id="@+id/btnRss"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dip"
+                android:background="@layout/button"
+                android:text="@string/rss" />
+        </LinearLayout>
+        <!-- Welcome Form Ends -->
+
+    </RelativeLayout>
+
+</ScrollView>
